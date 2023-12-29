@@ -1,0 +1,656 @@
+@charset "utf8";
+
+/* --------------------通用选择器------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+}
+/* ------------------------------！版心！-------------------- */
+.w {
+    width: 1226px;
+    height: 40px;
+    margin: auto;
+}
+.h-j{
+    background-color: #EAEAEA;
+width: 100%;
+height: 100%;
+}
+
+/* ------------------------    搜索框    --------------------- */
+.int {
+    width: 300px;
+    height: 49px;
+
+    float: right;
+    line-height: 49px;
+    margin: 24px 0 0 0;
+    border: 0.5px solid black;
+}
+
+.sou {
+    font-family: 'icomoon';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 49px;
+    text-align: center;
+    float: right;
+    display: block;
+    width: 52px;
+    height: 49px;
+    border: 1 solid black;
+
+}
+
+/* ---------------------------------------------------！！！导航栏！！！--------------------------- */
+.navx li {
+    list-style: none;
+    float: left;
+}
+
+.navx a {
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color: #B0B0B0;
+}
+
+.navx a:hover {
+    color: #FFFFFF;
+}
+
+.navx span {
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 5px 0 5px;
+    color: #3D4242;
+}
+
+.navq a {
+    float: right;
+    display: block;
+    width: 120px;
+    height: 40px;
+    background-color: #424242;
+    text-align: center;
+    line-height: 40px;
+    color: #B0B0B0;
+}
+
+.navq a:hover {
+    background-color: aliceblue;
+    color: #FF6700;
+}
+
+.navd {
+    float: right;
+    margin-right: 20px;
+}
+
+/* --------------------------------------------广告导航栏----------------------------------------------*/
+.con {
+    width: 1226px;
+    height: 100px;
+
+}
+
+.con a img {
+    float: left;
+    width: 56px;
+    height: 56px;
+    margin-top: 20px;
+}
+
+.con-s {
+    margin-left: 200px;
+}
+
+.con-s li {
+    float: left;
+    list-style: none;
+    line-height: 100px;
+    margin: 0 10px 0 10px;
+}
+
+.con-s li a {
+    text-decoration: none;
+    color: #333339;
+}
+
+.con-s li a:hover {
+    color: #FF6700;
+}
+
+/* -------------------------------------------！！！！！！！！！！！！！超链接，加左图片！！！！--------------------------------------- */
+.com {
+    width: 1226px;
+    height: 460px;
+    background-color: #0B0C0E;
+}
+
+/* 左边距 */
+.com .left {
+    float: left;
+    margin: 20px 0 20px 0;
+}
+
+.com .left li {
+    list-style: none;
+    line-height: 42px;
+    display: block;
+    width: 234px;
+    padding: 0 0 0 30px;
+}
+
+.com .left li:hover {
+    background-color: #FF6700;
+}
+
+.com .left li a {
+    text-decoration: none;
+    color: #F7F7F7;
+}
+
+/* -----------------------------------------------左边图-------------------------------------------------------*/
+.com .right img {
+    width: 961px;
+    height: 460px;
+}
+
+/* ------------------------***********************四小盒子 **********************----------------------------*/
+.son {
+    width: 1226px;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.son1 {
+    width: 234px;
+    height: 170px;
+    background-color: #59524B;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.son1 li {
+    list-style: none;
+    float: left;
+    display: block;
+    width: 76px;
+    height: 82px;
+    text-align: center;
+    border: 0.5px solid #665E57;
+
+}
+
+.son1 li a img {
+    width: 24px;
+    height: 24px;
+    padding: 18px 0 0 0;
+    text-decoration: none;
+}
+
+.son1 li a :hover {
+    color: #FFFFFF;
+
+}
+
+.son1 li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #CFCDCB;
+}
+
+.son2 {
+    width: 316px;
+    height: 170px;
+    float: left;
+    margin-left: 14px;
+
+}
+
+.son2 img {
+    width: 316px;
+    height: 170px;
+}
+
+.son21 {
+    width: 316px;
+    height: 170px;
+    float: right;
+}
+
+.son21 img {
+    width: 316px;
+    height: 170px;
+}
+
+/* -------------------------------------------侧定位---------------------------------------------- */
+.wed {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+}
+
+.wed li {
+    width: 83px;
+    height: 91px;
+    /* background-color: green; */
+    text-align: center;
+    padding: 18px 0 0 0;
+    border: 1px solid #f5f5f5;
+}
+
+.wed1 {
+    font-family: 'icomoon';
+    font-style: normal;
+    font-size: 30px;
+}
+
+.wed li a i {
+    color: #999999;
+}
+
+.wed li a p {
+    font-size: 14px;
+    color: #999999;
+}
+
+.wed li :hover {
+
+    color: #FF6700;
+
+}
+
+/* =================================================身体============================================================= */
+
+
+.top1 a img {
+    margin: 20px 0 20px 0;
+    width: 1226px;
+    height: 170px;
+}
+
+/*------------------------------------------------------ 标题栏--------------------------------------------------------- */
+.box {
+    width: 1226px;
+    height: 58px;
+    margin-top: 20px;
+}
+
+/* -----------------------------------------------------空盒子------------------------------------------------------- */
+.kun {
+    width: 200px;
+    height: 180px;
+
+}
+
+.top-1 h2 {
+    float: left;
+    font-size: 22PX;
+    font-weight: 200;
+}
+
+.top-2 a {
+    float: right;
+    font-size: 16PX;
+    text-decoration: none;
+    color: #535353;
+}
+
+.top-2 a:hover {
+    color: #FF6700;
+}
+
+.top-3 a {
+    float: right;
+    font-size: 16PX;
+    text-decoration: none;
+    color: #535353;
+    margin-right: 30px;
+}
+
+.top-3 a:hover {
+    color: #FF6700;
+}
+
+
+/* ---------------------------------------------------------------------手机 ================================*/
+.big {
+    width: 1226px;
+    height: 614px;
+
+}
+
+
+.zuo {
+    width: 234px;
+    height: 614px;
+    float: left;
+}
+
+.zuo a img {
+    width: 234px;
+    height: 614px;
+}
+
+.zuo a img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.you1 {
+    width: 978px;
+    height: 614px;
+    background-color: #F5F5F5;
+    float: right;
+}
+
+/* ￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥多余省略%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.den {
+    width: 224px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 8px;
+}
+
+/* ///////////////////、、、、、、、||||、、、、、、、、、、、、、、、、、、打折线 */
+.dz {
+    text-decoration: line-through;
+    color: #B0B0B0;
+}
+
+
+.you1 li {
+    width: 234px;
+    height: 300px;
+    background-color: #FFFFFF;
+    float: left;
+    margin-right: 14px;
+    /*错误*/
+    margin-bottom: 14px;
+}
+
+.big li:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*/、/、/？？|？、、/////////////////删除第四个和第八个右边距*/
+.you1 li.d {
+    margin-right: 0;
+}
+
+.you1 li a img {
+    width: 160px;
+    height: 160px;
+    margin-left: 33px;
+    margin-bottom: 18px;
+}
+
+.you1 li a h3 {
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+
+.you1 li a p {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 2px;
+    color: #B0B0C2;
+}
+
+
+.you1 li a .f {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #FF6700;
+}
+
+.xx1 h2 {
+    float: left;
+    font-size: 22px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.xx2 a {
+    float: right;
+    margin-bottom: 20px;
+}
+
+/*/\>\.>|\.||>|>|>|||||||||||||||||||||||||| 字体图标 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?y7ka9u');
+    src: url('fonts/icomoon.eot?y7ka9u#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?y7ka9u') format('truetype'),
+        url('fonts/icomoon.woff?y7ka9u') format('woff'),
+        url('fonts/icomoon.svg?y7ka9u#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* --------------------===================购物车 */
+.shopp {
+    font-family: 'icomoon';
+    font-style: normal;
+}
+
+/*===========================++++++++++++++++++++++++++++++++++++++++++ 左箭头 */
+.jto {
+    content: '';
+    font-family: 'icomoon';
+    font-style: normal;
+}
+
+.d .shang,
+.xia {
+    width: 234px;
+    height: 93px;
+    /* background-color: rebeccapurple; */
+    padding: 50px 0 0;
+    margin: 0 0 14px 0;
+}
+
+.d .shang a img {
+    width: 80px;
+    height: 90px;
+    float: right;
+    margin: -20px 20px 20px 7px;
+}
+
+/* ---------------------------------[小 li 上下盒子*/
+/*  */
+/* 错误！！！！！！ */
+/*  */
+.d .shang h3 {
+    padding-left: 17px;
+    margin-bottom: 10px;
+}
+
+.d .shang .dy {
+    padding-left: 50px;
+    color: #FF6700;
+}
+
+.song {
+    display: block;
+    font-family: 'icomoon';
+    font-style: normal;
+    font-size: 48px;
+    float: right;
+    padding-right: 30px;
+    color: #FF6700;
+
+}
+
+.xia a h3 {
+    float: left;
+    display: block;
+    width: 100px;
+    height: 20px;
+    font-size: 18px;
+}
+
+.navy img {
+    width: 1226px;
+    height: 120px;
+    margin: 40px 0 20px 0;
+}
+
+.ku {
+    width: 100%;
+    height: 472px;
+
+}
+
+.gou {
+    width: 1226px;
+    height: 79px;
+    border-bottom: 1px solid #E0E0E0;
+
+}
+
+.yin {
+    font-family: 'icomoon';
+    font-style: normal;
+
+}
+
+.gou li {
+    float: left;
+    width: 19.8%;
+    color: #616161;
+    line-height: 79px;
+    font-size: 16px;
+    text-align: center;
+    color: #616161;
+
+}
+
+.gou li a {
+    color: #707070;
+}
+
+.dos {
+    width: 1226px;
+    height: 392px;
+
+    padding: 40px 86px;
+    box-sizing: border-box;
+}
+
+.col {
+    width: 160px;
+    height: 312px;
+    float: left;
+}
+
+.col dt {
+    font-size: 14px;
+    margin-bottom: 26px;
+}
+
+.col dd a {
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    color: #757575;
+}
+
+.col dd a:hover {
+    color: #FF6700;
+}
+
+.col-1 {
+    width: 251px;
+    height: 79px;
+
+    float: right;
+    border-left: 1px solid #E0E0E0;
+}
+
+.col-1 .onl {
+    color: #FF6700;
+    font-size: 22px;
+    text-align: center;
+}
+
+.col-1 p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.an {
+    width: 119px;
+    height: 29px;
+    margin-left: 60px;
+}
+
+.an:hover {
+    background-color: #FF6700;
+    color: #FFFFFF;
+}
+
+.holle {
+    width: 100%;
+    height: 256px;
+    background-color: #FAFAFA;
+}
+
+.bai {
+    width: 1226px;
+    height: 256px;
+
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+.bai .rel img {
+    width: 56px;
+    height: 56px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 160px;
+}
+
+.bai a,
+.ew {
+    font-size: 12px;
+    color: #757575;
+    white-space: nowrap;
+}
+
+.bai p a:hover {
+    color: #FF6700;
+}
+
+.bai span {
+    font-size: 12px;
+    color: #757575;
+}
+
+.rul img {
+    width: 83px;
+    height: 28px;
+}
+
+.hj {
+    width: 400px;
+    height: 30px;
+    background-image: url(./imger/uop.jpg);
+    background-repeat: no-repeat;
+    margin: 30px 0 0 430px;
+}
